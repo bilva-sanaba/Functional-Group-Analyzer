@@ -1,11 +1,12 @@
 # Library Functional Group Analyzer 
 
-Python project, which uses pybel, and provides additional tools for pybel. Intended to be expanded with other scripts useful to chemoinformatics. 
+This is a python project, which uses pybel, in order to provide additional tools for pybel. It was intended to be expanded with scripts useful to chemoinformatics. 
 <br>
-Currently it has a module designed to better read and write libraries. 
+Currently it serves one major function. Analyzing a library of molecules for functional group trends.  
 <br>
-As well as a module for analyzing libraries by functional groups using SMARTS. 
-There also exist scripts in order to analyze library functional groups. 
+For this, there is a module that can be added to PYTHONPATH in order to work in shell. 
+Additionally, there exists a script for analyzing a library show below:
+
 
 pybel\_analyze\_library_smarts.py is a standalone script which can be downloaded and run with Python 2.7
 and pybel. It generates spreadsheets counting the occurences of various functional groups for each molecule in a library when used appropriately.
@@ -20,7 +21,7 @@ Linux, Windows, or OSX Computer
 
 Python 2.7: [Python 2.7](https://www.python.org/download/releases/2.7/)
 
-Python 2 must be downloaded on the computer. Follow the link in order to do so. 
+Python 2 must be downloaded on your computer. Follow the link in order to do so. 
 
 In order to use this program, you must install OpenBabel with dependencies. 
 
@@ -29,7 +30,7 @@ Follow the instructions here in order to download OpenBabel 2.3.1 and dependenci
 <br>
  [OpenBabel Download Instructions](https://openbabel.org/docs/dev/UseTheLibrary/PythonInstall.html)
  
- Note you must download the older versions listed on the website. 
+ Note the instructions use older versions listed on the website. The older versions do not change usability for functional group analysis but may have bugs for other parts of OpenBabel. 
  Older versions can be found here for Windows:
 <br>
  [OpenBabel Download](https://sourceforge.net/projects/openbabel/files/openbabel/)
@@ -39,7 +40,7 @@ Follow the instructions here in order to download OpenBabel 2.3.1 and dependenci
 Once Pybel is installed. Add the directory to your python path. You can check the success of this by typing import pybel
  in your python shell. If the library is installed, the prerequisites are complete.
 
-Fork and clone this project onto your computer unless you want to just use the independent script. For that,
+Download the entire project unless you want to just use the independent script. For that,
 just download the script pybel\_analyze\_library_smarts.py 
 
 
